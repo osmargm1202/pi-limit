@@ -1,0 +1,30 @@
+{
+  "name": "pi-limit",
+  "version": "0.1.0",
+  "description": "ORGM Pi limits package scaffold for /orgm-limits.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmargm1202/pi-limit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/osmargm1202/pi-limit/issues"
+  },
+  "homepage": "https://github.com/osmargm1202/pi-limit#readme",
+  "keywords": ["pi-package", "pi-extension", "orgm", "limits"],
+  "files": ["extensions", "README.md"],
+  "scripts": {
+    "test": "node --test tests/*.test.*",
+    "pack:check": "npm pack --dry-run"
+  },
+  "pi": {
+    "extensions": ["./extensions/limit.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.79.0"
+  }
+}
