@@ -1,8 +1,6 @@
 # pi-limit
 
-ORGM Pi limits package scaffold for `/orgm-limits`.
-
-Status: scaffold only. Runtime behavior still lives in `pi-harness` until extraction lands.
+ORGM Pi limits package for `/orgm-limits`.
 
 ## Install
 
@@ -16,11 +14,17 @@ This package is also loaded by the ORGM bundle:
 pi install git:github.com/osmargm1202/pi-harness
 ```
 
-## Owns after extraction
+## Owns
 
 - `/orgm-limits`
-- ChatGPT/Codex/MiniMax limit reporting helpers currently in `pi-harness`.
-- Command-only inline limit output. No persistent footer state.
+- ChatGPT/Codex/MiniMax limit reporting helpers.
+- Command-only inline limit output.
+
+## Rules
+
+- No persistent footer state.
+- No `pi-footer` limit rendering.
+- Limit output stays explicit and command-triggered.
 
 ## Development
 
