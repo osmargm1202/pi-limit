@@ -1,6 +1,6 @@
 # pi-limit
 
-ORGM Pi limits package for `/orgm-limits`.
+ORGM Pi limits package for `/limits`.
 
 ## Install
 
@@ -16,7 +16,7 @@ pi install git:github.com/osmargm1202/pi-harness
 
 ## Owns
 
-- `/orgm-limits`
+- `/limits`
 - ChatGPT/Codex/MiniMax limit reporting helpers.
 - Command-only inline limit output.
 

@@ -64,7 +64,7 @@ export default function (pi: ExtensionAPI) {
 		return new Text(rows.map((row) => theme.fg("accent", row)).join("\n"), 0, 0);
 	});
 
-	pi.registerCommand("orgm-limits", {
+	pi.registerCommand("limits", {
 		description: "Show active provider usage limits inline",
 		handler: async (_args, ctx) => {
 			const model = await refreshOnce(ctx);

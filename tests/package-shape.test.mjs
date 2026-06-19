@@ -4,8 +4,8 @@ import test from "node:test";
 
 const pkg = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
 
-test("package exposes the orgm limits Pi extension", () => {
+test("package exposes the limits Pi extension", () => {
   assert.equal(pkg.name, "pi-limit");
   assert.deepEqual(pkg.pi.extensions, ["./extensions/limit.ts"]);
-  assert.ok(pkg.description.includes("/orgm-limits"));
+  assert.ok(pkg.description.includes("/limits"));
 });

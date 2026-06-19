@@ -1,7 +1,7 @@
 {
   "name": "pi-limit",
   "version": "0.1.0",
-  "description": "ORGM Pi limits package for /orgm-limits.",
+  "description": "ORGM Pi limits package for /limits.",
   "type": "module",
   "license": "MIT",
   "repository": {
